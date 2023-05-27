@@ -1,0 +1,195 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    background-color: black;
+    z-index: 1000;
+    width: 100%;
+    margin:0px 0px ;
+    top: 0px;
+}
+
+.navbar{
+    display: flex;
+    column-gap: 20px;
+    height: 50px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar li{
+    margin-top: 15px;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.icons img{
+    width: 30px;
+    height: 20px;
+    margin-top: 15px;
+    background-color: white;
+}
+.logo
+{
+    color: white;
+    margin-top: 15px;
+}
+
+.main-content ::before{
+    content: "";
+    position: absolute;
+    background: url('./images/pizza.jpg') no-repeat center center/cover;
+    height: 642px;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: -1; 
+    /* opacity:0.89;*/
+}
+.main-content p{
+    display: flex;
+    justify-items: end;
+    color:white ;
+    font-size: 70px;
+    margin-left: 60px;
+    margin-top: 100px;
+}
+
+.main-content span {
+    color: green;
+    margin-left: 60px;
+    width: 20px;
+    margin-top: 100px;
+}
+/* span{
+    width:20%;
+} */
+
+/* about */
+#about{
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+#about>h1{
+    width: 100%;
+    text-align: center;
+    color: red;
+    padding-top: 360px;
+ 
+}
+.about-container{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.about-para{
+    padding: 50px;
+    padding-bottom: 0px;
+    text-align: justify;
+}
+.about-para p{
+color: red  ;
+}
+.about-img>img{
+    width: 300px;
+}
+.read{
+    width: 150px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgb(194, 42, 77);
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+}
+.read:hover{
+  background-color:   rgba(194, 42, 77, 0.893);
+}
+#menu{
+padding: 150px;
+
+}
+#menu h1{
+    color: red;
+}
+#menu>h1{
+    text-align: center;
+    padding-bottom: 100px;
+    color: white;
+}
+.heading{
+    color:rgb(194, 42, 77);
+}
+.menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.item img{
+    width: 200px;
+}
+.item{
+    width: 500px;
+    display: flex;
+    margin-bottom: 15px;
+}
+.item p{
+    padding: 10px;
+}
+
+/* find us */
+
+h1{
+    text-align: center;
+    padding-bottom: 100px;
+}
+i{
+    padding: 15px;
+}
+#find-us{
+    color: white;
+    padding: 200px;
+}
+.find-section1{
+    width: 400px;
+}
+.find-container{
+    display: flex;
+    padding: 20px;
+}
+
+/* footer section  */
+.foot-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    padding-top: 0px;
+
+}
+h2{
+    padding-left: 120px;
+    color: rgb(194, 42, 77);
+    padding-bottom: 15px;
+}
+a{
+    color: whitesmoke;
+}
